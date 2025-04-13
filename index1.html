@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="menu-logo">
+                <a><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="music-logo">
+                <span><i class="fa-regular fa-circle-play"></i></span>
+                GroveGrid
+            </div>
+
+            <div class="nav-search ">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input type="text" placeholder="Search songs,albums,artists" class="search-input">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+
+            <div class="signin">
+                Sign in
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- left side -->
+        <div class="menubar">
+                <div class="box1 box">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+            <div class="box2 box">
+                <i class="fa-regular fa-compass"></i>
+                <a href="#">Explore</a>
+            </div>
+            <div class="box3 box">
+                <i class="fa-solid fa-music"></i>
+                <a href="#">Library</a>
+            </div>
+            <div class="box4 box">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <a href="#">Recents</a>
+            </div>
+            <div class="box5 box">
+                <i class="fa-solid fa-video"></i>
+                <a href="#">Movies</a>
+            </div>
+            <div class="box6 box">
+                <i class="fa-solid fa-download"></i>
+                <a href="#">Downloads</a>
+            </div>
+        </div>
+        <!-- left menu end -->
+        <!-- content start -->
+        <div class="content-area">
+            <div class="radio-group">
+                <a>Feel good</a>
+                <a>Romance</a>
+                <a>Podcasts</a>
+                <a>Relax</a>
+                <a>Party</a>
+                <a>Sleep</a>
+                <a>Energize</a>
+                <a>workout</a>
+                <a>Sad</a>
+                <a>Focus</a>
+            </div>
+
+            <div class="albums">
+                <h1>Recommended albums</h1>
+                <div class="song-box-content">
+                    <div class="boxes">
+                        <a href="#">
+                            <div class="song-box"
+                                style="background-image: url(https://sguniverse.in/wp-content/uploads/2023/11/IMG_1293.jpeg)">
+                            </div>
+                            Animal -Hindi
+                            <p>Album. various artist</p>
+                        </a>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.scdn.co/image/ab67616d0000b273bb25239324c4e16ae01fda36)">
+                        </div>
+                        Making memories
+                        <p>Album. Karan aujla & Ikky</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://upload.wikimedia.org/wikipedia/en/4/4f/Aashiqui_2.jpeg)">
+                        </div>
+                        Aashiqui 2
+                        <p>Album. Jeet ganguli</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.scdn.co/image/ab67616d0000b273c5545f737b16ad5ee767b62a)">
+                        </div>
+                        Kabir Singh
+                        <p>Album. Various artists</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.ytimg.com/vi/ehESUpO5kl4/maxresdefault.jpg)">
+                        </div>
+                        Champagne Talk
+                        <p>Album. King</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.scdn.co/image/ab67616d0000b2737b8d8ca1a8e14506c8f35233)">
+                        </div>
+                        ONE(original never ends)
+                        <p>Album. Badshah</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Quick-picks">
+                <h1>Quick picks</h1>
+                <div class=" list1 song-box-content">
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/397/Tu-hai-kahan-Hindi-2023-20231016122634-500x500.jpg)">
+                        </div>
+                        Tu hai kahan
+                        <p>Aur. Tu hai kahan</p>
+                        <audio  controls src="Tu Hai Kahan Uraan_64-(DJPunjab).mp3"></audio>
+                        <audio src=""></audio>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/208/Pal-From-Jalebi--Hindi-2018-20180912085100-500x500.jpg)">
+                        </div>
+                        Pal
+                        <p>Mohsin,Arijit singh</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/779/Heeriye-Hindi-2022-20220927124457-500x500.jpg)">
+                        </div>
+                        Heeriye
+                        <p>Arijit singh</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/265/Lutt-Putt-Gaya-From-Dunki-Hindi-2023-20231211171015-500x500.jpg)">
+                        </div>
+                        Lutt Putt Gaya
+                        <p>Arijit singh. Dunki</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://source.boomplaymusic.com/group10/M00/11/19/896291d776d144ae9764e3e5c3c187f3_464_464.jpg)">
+                        </div>
+                        Tu Aake Dekhle
+                        <p>King. The Carnival</p>
+                        <audio  controls src="Tu Aake Dekhle Lofi_64-(PagalWorld).mp3"></audio>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.scdn.co/image/ab67616d0000b2738792c3e96f8ab97a767c5d0c)">
+                            <audio src="Tu Hai Kahan Uraan_64-(DJPunjab).mp3"></audio>
+                        </div>
+                        Until I Found You
+                        <p>Stephen Sanch</p>
+                        <audio  controls src="Until I Found You Slowed Reverb_64-(PagalWorld).mp3"></audio>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Quick-picks">
+                <div class=" list2 song-box-content">
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2Fhyperfollow-blob_image_2962113_vismpzi1khgbyv02tokk4_1692044720245.jpg?fm=jpg&q=75&w=800&s=46f4540a2affb74a11960c71e7d17180)">
+                        </div>
+                        Janiye
+                        <p>Vishal Mishra</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://images.hungama.com/c/1/542/68c/51345341/51345341_300x300.jpg)">
+                        </div>
+                        Nazar
+                        <p>Pulkit Arora & Kabira</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/245/Hass-Hass-English-2023-20231026170517-500x500.jpg)">
+                        </div>
+                        Hass Hass
+                        <p>Diljit Dosanjh,Sai.</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/051/Mi-Amor-Punjabi-2022-20220930164801-500x500.jpg)">
+                        </div>
+                        Mi Amor
+                        <p>Shran, 40K & The Paul</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/448/Radha-Rani-Lage-Hindi-2023-20230407151645-500x500.jpg)">
+                        </div>
+                        Radha Rani Lage
+                        <p>Simpal Kharel.</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.pinimg.com/originals/d0/78/85/d07885d23dd84c34cd167215206bffb0.jpg)">
+                        </div>
+                        Pehle Bhi Mai
+                        <p>Vishal Mishra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trending">
+                <h1>Trending songs</h1>
+                <div class=" list1 song-box-content">
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/143/Jai-Shree-Ram-Hindi-2023-20231215230942-500x500.jpg)">
+                        </div>
+                        Jai Shree Ram
+                        <p>Hansraj Raghuvanshi</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://images.genius.com/ac7cb6db7781bd7ec7d66a313b4456bc.1000x1000x1.png)">
+                        </div>
+                        Ram Ayenge
+                        <p>Swati Mishra</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://c.saavncdn.com/265/Lutt-Putt-Gaya-From-Dunki-Hindi-2023-20231211171015-500x500.jpg)">
+                        </div>
+                        Lutt Putt Gaya
+                        <p>Arijit Singh</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i0.wp.com/lyricshot.in/wp-content/uploads/2024/01/hqdefault.jpg?fit=480%2C360&ssl=1)">
+                        </div>
+                        Heer Aasmani
+                        <p>B praak,Shilpa Rao</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.scdn.co/image/ab67616d0000b273d2650895965519019368bc3c)">
+                        </div>
+                        Love Ya
+                        <p>Diljit Dosanjh</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.ytimg.com/vi/3ZqkYzSnv3c/maxresdefault.jpg)">
+                        </div>
+                        Main Tera Rasta Dunga
+                        <p>Vishal Mishra</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="newreleases">
+                <h1>New releases</h1>
+                <div class=" list2 song-box-content">
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://m.media-amazon.com/images/I/51AHN+1DciL._UXNaN_FMjpg_QL85_.jpg)">
+                        </div>
+                        Billo Kehndi
+                        <p>EP. Kaka</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.ytimg.com/vi/AV43Q2Wx-3I/sddefault.jpg)">
+                        </div>
+                        My Shree Ram Favourites
+                        <p>Album. Shankar Mahadevan</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.ytimg.com/vi/JcOPVyWHkRo/sddefault.jpg)">
+                        </div>
+                        Mere Prabhu Ram Aye Hain
+                        <p>Single. Deep Money</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://preview.redd.it/flying-towards-the-city-panther-tracklist-out-v0-y6cywqukmkbc1.jpeg?auto=webp&s=8dc358a74c574d20dfcc3dcbe2a065069c7e3bc7)">
+                        </div>
+                        Flying Towars The City
+                        <p>Album. Panther</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://sguniverse.in/wp-content/uploads/2023/11/IMG_1293.jpeg)">
+                        </div>
+                        Animal -Hindi <br>
+                        <p>Album. Harshvardhan</p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://i.ytimg.com/vi/L8ggUuALLUM/hqdefault.jpg)">
+                        </div>
+                        Meri Ma Ne Pasand
+                        <p>Bhaichara on The Top Floor. Rju Punjabi</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="movie">
+                <h1> Movies suggestions</h1>
+                <div class=" list2 song-box-content">
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://m.media-amazon.com/images/M/MV5BMDBkMGRkMDQtMDFhZC00OWU5LWExZWMtYjBlZjEyYWMwNjI5XkEyXkFqcGdeQXVyMTU0ODI1NTA2._V1_.jpg)">
+                        </div>
+                        Sam Bahadur
+                        <p></p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://m.media-amazon.com/images/M/MV5BNTgwMjQ1OWEtZDZhZS00YTM1LTg4NWUtMTdjZmE0MzQ0MTlmXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg)">
+                        </div>
+                        Fighter
+                        <p></p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://sguniverse.in/wp-content/uploads/2023/11/IMG_1293.jpeg)">
+                        </div>
+                        Animal 
+                        <p></p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://content.tupaki.com/en/feeds/2023/12/21/230864-dunki.jpg)">
+                        </div>
+                        Dunki
+                        <p></p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://m.media-amazon.com/images/M/MV5BNThkNDNjMDQtN2ZlOC00MGIwLWE3MGMtOWI0NTVhNDczN2I1XkEyXkFqcGdeQXVyMTYyNDExNjA4._V1_.jpg)">
+                        </div>
+                        Kho Gye Hum Kahan
+                        <p> </p>
+                    </div>
+                    <div class="boxes">
+                        <div class="song-box"
+                            style="background-image: url(https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2023/07/Salaar-Poster.jpg)">
+                        </div>
+                        Salaar
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
